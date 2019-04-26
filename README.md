@@ -84,4 +84,4 @@ To start the demo (in development mode) after all dependencies have been started
 
 The first thing you see should resemble.
 
-[this]
+[Example]('./docs/example.png)
