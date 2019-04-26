@@ -93,7 +93,7 @@ To start the demo (in development mode) after all dependencies have been started
 
 The first thing you see should resemble.
 
-[this]
+![Example](./example.png)
 
 
 ## How it works
@@ -182,13 +182,14 @@ locale variant present.
 
 So your environment should look something like this:
 
-[this]
+![Localised Objects With Shared Names](./example-localised.png)
+![Localised Ojects](./example-objects.png)
 
 ### Enabling localisation for Cosmic Object Types
 
 On left left hand sidebar under `Dashboard` after creating each respective Object Type you should have `Blog Posts` and `Pages` as small folder icons visible under the dashboard. From that same interface, you should also see a small `cog` near the top of the listing. CLicking that will bring up an interface to enable localisation.
 
-[this]
+![Localised Conent](./localisation-settings.png)
 
 Toggle `Localisation` to `On` and then, add the locales you'd like to support for your application. These should be same same for both
 
