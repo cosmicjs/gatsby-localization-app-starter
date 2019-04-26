@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import styled from '@emotion/styled';
 import { Link } from 'gatsby';
 
+import { readableColor, lighten } from 'polished';
+import appConfig from '../../../config';
+
 const LocaleSelectionList = styled.ul`
 	list-style: none;
 	margin: 0;
@@ -17,7 +20,7 @@ const buildLocaleSelection = Comp => styled(Comp)`
 	font-weight: ${({ isActive }) => isActive ? '600' : '400'};
 	border: 0;
 	padding: .6rem;
-	background-color: rgba(0,0,0, .1);
+	background-color: ${lighten(0.005, appConfig.theme.primaryAccent)};
 	text-decoration: none;
 
 	margin-right: .5rem;

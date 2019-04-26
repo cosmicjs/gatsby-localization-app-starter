@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import { Link } from 'gatsby';
+import { readableColor, darken } from 'polished';
+
+import appConfig from '../../../config';
 
 const HeaderNavigationWrapper = styled.nav`
 	text-align: center;
@@ -15,14 +18,18 @@ const HeaderNavigationList = styled.ul`
 const HeaderNavigationLink = styled(Link)`
 	font-size: 1.2rem;
 	padding: .4rem .8rem;
+	font-weight: 600;
 
-	&, &:visited, &:disabled {
+	&, &:visited, &:disabled, &:hover {
 		text-decoration: none;
 		color: inherit;
 	}
 
+	text-shadow: none;
+	transition: text-shadow ${appConfig.theme.primaryTransitionSpeed};
+
 	&:hover {
-		text-decoration: underline;
+		text-shadow: 2px 2px 0px ${darken(0.09, appConfig.theme.primaryAccent)};
 	}
 `;
 

@@ -23,6 +23,10 @@ export const HeaderWrapper = styled.header`
 const HeaderSiteTitle = styled.h1`
 	color: inherit;
 	text-align: center;
+	font-size: 80px;
+	margin: .5rem 0;
+	line-height: 1;
+	text-shadow: 3px 3px 0px ${withBgColor(bg => darken(0.15, bg))};
 `;
 
 export default function Header({

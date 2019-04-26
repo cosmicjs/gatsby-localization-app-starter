@@ -13,6 +13,7 @@ const { primaryAccent } = appConfig.theme;
 export const FooterWrapper = styled.footer`
 	padding: 2.5rem 1rem;
 	background-color: ${lighten(0.2, primaryAccent)};
+	border-top: solid 5px ${lighten(0.15, primaryAccent)};
 	color: ${readableColor(primaryAccent)};
 `;
 
