@@ -6,7 +6,7 @@ It's been quite a while since I last created a demo application for Cosmic JS, a
 
 Cosmic JS is a CMS platform that lets you leverage your content in a way that's agnostic to any specific platform. Essentially, it decouples you from having to lock your content down to a single framework, enabling you to implement and extend your own content as you wish. One of the most recent additions to the Cosmic JS toolbelt is the [`gatsby-source-cosmicjs`](https://github.com/cosmicjs/gatsby-source-cosmicjs) plugin for Gatsby JS, allowing you to embed your Cosmic JS content into a statically generated React application.
 
-I'll be honest, I', typically rather old-fashioned when it comes to storing static content. As someone with a background of storing content within JSON files and rendering it with Pug/Jade, it's always refreshing to see how far content management strategies have come over the last decade. Gatsby is basically the effective way to leverage static hosting (for that sweet SEO gain), but still allowing you to leverage the abilities of a dynamic React environment.
+I'll be honest, I'm rather old-fashioned when it comes to storing static content. As someone with a background of storing content within JSON files and rendering with Pug/Jade, it's always refreshing to see how far content management strategies have come over the last decade. Gatsby is basically the effective way to leverage static hosting (for that sweet SEO gain), but still allowing you to leverage the abilities of a dynamic React environment.
 
 As a means of helping people like me who are into the essentials, and then building up from that, I've created a minimalistic Cosmic JS + Gatsby localisation starter application.
 
