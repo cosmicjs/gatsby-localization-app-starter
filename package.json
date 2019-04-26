@@ -1,0 +1,29 @@
+{
+  "name": "gatsby-localisation-starter",
+  "description": "Gatsby example site using gatsby-source-cosmicjs",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "start": "npm run develop",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.10",
+    "gatsby": "^2.0.17",
+    "gatsby-plugin-emotion": "^4.0.6",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-source-cosmicjs": "0.0.7",
+    "htmr": "^0.7.0",
+    "moment": "^2.24.0",
+    "polished": "^3.2.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-helmet": "^5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.11.1"
+  }
+}
