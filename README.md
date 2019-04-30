@@ -1,5 +1,7 @@
 # Gatsby Localisation App Starter
 
+## [Demo](https://gatsby-localisation-starter.dev46.now.sh/en-US)
+
 ## Why
 
 1. The ability to host your own localised Site within Gatsby JS
@@ -11,7 +13,7 @@ Cosmic JS provides an easy-to-use means of creating your own clone of this start
 
 ## Installing the demo (from source)
 
-The project source can be found `here` on github. After cloning the repository, you should have something that loosely resembles the following structure.
+The project source can be found here on github. After cloning the repository, you should have something that loosely resembles the following structure.
 
 ```
 .gitignore

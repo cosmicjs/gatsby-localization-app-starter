@@ -20,7 +20,7 @@ Cosmic JS provides an easy-to-use means of creating your own clone of this start
 
 ## Installing the demo (from source)
 
-The project source can be found `here` on github. After cloning the repository, you should have something that loosely resembles the following structure.
+The project source can be found [here  on GitHub](https://github.com/flynnham/comsicjs-gatsby-localisation-starter). After cloning the repository, you should have something that loosely resembles the following structure.
 
 ```
 .gitignore
@@ -85,7 +85,7 @@ module.exports = {
 }
 ```
 
-For the above, ensure that the `bucketSlug` values correlates with your own Cosmic JS Bucket, and that the `apiAccess.read_key` is present if you've configured your bucket to require it. Also make sure you have `blog post` and `pages` Nodes within your Bucket, otherwise the `gatsby-source-cosmicjs` will not have the correct Gatsby GraphQL queries (preventing you from running the demo)
+For the above, ensure that the `bucketSlug` values correlates with your own Cosmic JS Bucket, and that the `apiAccess.read_key` is present if you've configured your ucket to require it. Also make sure you have `blog post` and `pages` Nodes within your Bucket, otherwise the `gatsby-source-cosmicjs` will not have the correct Gatsby GraphQL queries (preventing you from running the demo)
 
 ## Running the demo
 
@@ -98,7 +98,7 @@ The first thing you see should resemble.
 
 ## How it works
 
-This localisation starter app in particular relies heavily on the `locale` value that's bound to each Cosmic JS Object. While each Object would normally require each item to have a unique `slug` constraint (meaning that slug would need to be unique among all other nodes of a given type): because we'd have localisation enabled for this particular projection, we no longer need to worry about that. With localisation, a Object can have have the same `slug` value given that each variant also has a unique `;pca;e` specified.
+This localisation starter app in particular relies heavily on the `locale` value that's bound to each Cosmic JS Object. While each Object would normally require each item to have a unique `slug` constraint (meaning that slug would need to be unique among all other nodes of a given type): because we'd have localisation enabled for this particular projection, we no longer need to worry about that. With localisation, a Object can have have the same `slug` value given that each variant also has a unique `locale` specified.
 
 The `withLocale` component from `src/components/modules/withLocale.js` contains login that's responsible that a connected Gatsby page, can resolve which locale a given Page or Blog Post should be shown with, and any alternative links based on a resources available locale variations. So for example, if a blog post with a slug of `example-post` has locale variants in `en-US` and `es-AR`, the correct page to show will be determined by:
 
