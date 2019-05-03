@@ -1,4 +1,5 @@
 # Gatsby Localization App Starter
+![image](https://cosmic-s3.imgix.net/3f6723f0-6dab-11e9-bbfb-0da993d74d77-Gatsby-Localization.png?w=1200)
 
 ## [Demo](https://cosmicjs.com/apps/gatsby-localization-app-starter)
 
