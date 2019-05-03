@@ -14,7 +14,7 @@ Cosmic JS provides an easy-to-use means of creating your own clone of this start
 
 ## Installing the demo (from source)
 
-The project source can be found here on github. After cloning the repository, you should have something that loosely resembles the following structure.
+The project source can be found here on GitHub. After cloning the repository, you should have something that loosely resembles the following structure.
 
 ```
 .gitignore
