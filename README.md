@@ -5,12 +5,12 @@
 
 ## Why
 
-1. The ability to host your own localized Site within Gatsby JS
-2. Leverages the power of Cosmic JS localization
+1. The ability to host your own localized site within Gatsby JS
+2. Leverages the power of [Cosmic JS](https://cosmicjs.com) localization
 
 ## Installing the demo (from Cosmic JS App Section)
 
-Cosmic JS provides an easy-to-use means of creating your own clone of this starter application from their own web ui. If you don't like getting your hands too dirty, or just would like to give the starter app a test drive, you can access it from here. The prompts will guide you in creating an account and creating the necessary items.
+Cosmic JS provides an easy-to-use means of creating your own clone of this starter application from their own web ui. If you don't like getting your hands too dirty, or just would like to give the starter app a test drive, you can [install the app here](https://cosmicjs.com/apps/gatsby-localization-app-starter). The prompts will guide you in creating an account and creating the necessary items.
 
 ## Installing the demo (from source)
 
