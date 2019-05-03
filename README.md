@@ -1,6 +1,6 @@
 # Gatsby Localization App Starter
 
-## [Demo](https://github.com/cosmicjs/gatsby-localization-website)
+## [Demo](https://cosmicjs.com/apps/gatsby-localization-app-starter)
 
 ## Why
 
