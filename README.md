@@ -1,11 +1,11 @@
-# Gatsby Localisation App Starter
+# Gatsby Localization App Starter
 
-## [Demo](https://gatsby-localisation-starter.dev46.now.sh/en-US)
+## [Demo](https://github.com/cosmicjs/gatsby-localization-website)
 
 ## Why
 
-1. The ability to host your own localised Site within Gatsby JS
-2. Leverages the power of Cosmic JS localisation
+1. The ability to host your own localized Site within Gatsby JS
+2. Leverages the power of Cosmic JS localization
 
 ## Installing the demo (from Cosmic JS App Section)
 
